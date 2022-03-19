@@ -1,0 +1,7 @@
+examen_final=float(input("ingrese la nota del examen final: "))
+quizes1=float(input("ingrese la nota de quizes1: "))
+quizes2=float(input("ingrese la nota de quizes2"))
+quizes3=float(input("ingrese la nota de quizes3"))
+trabajo_final=float(input("ingrese la nota de trabajos: "))
+nota=(examen_final*0.5)+ (quizes1*0.2)+ (trabajo_final*0.3)
+print ("resultado {}".format (nota))

@@ -1,0 +1,6 @@
+c=int(input("digite valor c  "))
+i=float(input("digite el valor de i  " ))
+a=int(input("digite el valor de a     "))
+vf=c*(1+(i)/100)**(a)
+print("el valor de vf es:  ",vf)
+print(vf)
